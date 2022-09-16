@@ -53,6 +53,10 @@ context ('Initialize ', () => {
     cy.get('.Task_completed__uXe-U').should('have.css', 'background-color', 'rgb(33, 33, 43)')
    })
 
+   it("on clique sur l'\icone de suppression et ça supprime", () => {
+    cy.get('.Task_task__button__YibhD').last().click()
+   })
+
 
 
 
